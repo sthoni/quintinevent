@@ -21,9 +21,9 @@
                 <tr>
                     <td>{rsvp.name}</td>
                     <td>{rsvp.status}</td>
+                    <td>{rsvp.food}</td>
                     <td>{rsvp.drinkCategory}</td>
                     <td>{rsvp.drinkNote}</td>
-                    <td>{rsvp.food}</td>
                     <td>{rsvp.music}</td>
                     <td>{rsvp.comment}</td>
                 </tr>
