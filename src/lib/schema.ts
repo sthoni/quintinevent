@@ -2,17 +2,17 @@
 import * as v from "valibot";
 
 // Status: yes / no / maybe
-export const rsvpStatusSchema = v.picklist(["yes", "no", "maybe"]);
+export const rsvpStatusSchema = v.picklist(["ja", "nein", "vielleicht"]);
 
 // Drink-Kategorien (eine Haupt-Präferenz)
 export const drinkCategorySchema = v.picklist([
-  "water",
-  "softdrink",
-  "beer",
-  "wine",
-  "mulled wine",
-  "any",
-  "specific",
+  "Wasser",
+  "Softdrinks",
+  "Bier",
+  "Wein",
+  "Glühwein",
+  "Egal",
+  "Sonderwunsch",
 ] as const);
 
 // Voller Record, wie er in PocketBase existiert

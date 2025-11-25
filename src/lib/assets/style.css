@@ -1,0 +1,57 @@
+@import "@picocss/pico/css/pico.green.min.css";
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(51, 121, 15);
+    padding: 2rem;
+
+    div,
+    nav {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    a {
+        color: white;
+        text-decoration-color: white;
+
+        &:hover {
+            color: black;
+            text-decoration-color: black;
+        }
+    }
+
+    h1 {
+        color: white;
+        margin: 0;
+    }
+    img {
+        width: 64px;
+        height: 64px;
+    }
+}
+
+main {
+    margin-block: 4rem;
+}
+
+footer {
+    margin-block-start: auto;
+    background-color: rgb(51, 121, 15);
+    padding: 2rem;
+    text-align: center;
+    p {
+        color: white;
+    }
+}
