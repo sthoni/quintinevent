@@ -80,9 +80,9 @@
             <tr>
                 <th>Name</th>
                 <th>Status</th>
+                <th>Fingerfood</th>
                 <th>Getränkewunsch</th>
                 <th>Sonderwunsch</th>
-                <th>Fingerfood</th>
                 <th>Musikwünsche</th>
                 <th>Kommentar</th>
             </tr>
