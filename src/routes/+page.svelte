@@ -34,6 +34,10 @@
         </label>
     </fieldset>
     <label>
+        Fingerfood fürs Buffet
+        <input type="text" name="food" placeholder="Pizzaschnecken" />
+    </label>
+    <label>
         (Primärer) Getränkewunsch
         <select name="drinkCategory">
             <option value="Egal">Egal</option>
@@ -52,10 +56,6 @@
             name="drinkNote"
             placeholder="Schorle aus meinem Geburtsjahr"
         />
-    </label>
-    <label>
-        Fingerfood fürs Buffet
-        <input type="text" name="food" placeholder="Pizzaschnecken" />
     </label>
     <label>
         Musikwünsche
